@@ -8,7 +8,7 @@
     <style>
     body {
         font-family: "Calibri", sans-serif;
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .container {
@@ -60,6 +60,21 @@
     code.python span.string {
         color: red;
     }
+    .container > p + h1,
+    .container > h1:nth-of-type(4) {
+    font-size: 1.5rem;
+    }
+    p:nth-of-type(4),
+    p:nth-of-type(5),
+    ul:nth-of-type(1) li {
+        font-size: 14px;
+    }
+    ul:nth-of-type(2) li {
+        font-size: 14px;
+    }
+    ul:nth-of-type(3) li {
+        font-size: 20px;
+    }
     </style>
 </head>
 <body>
@@ -74,7 +89,7 @@
             <li>Markdown Cell</li>
         </ol>
         <p>Untuk masuk kedalam mode <strong>Cell</strong> bisa menggunakan command <strong>Y</strong> dan command <strong>M</strong> untuk mode <strong>Markdown</strong></p>
-        
+        <br>
         <!-- Heading ke-2 -->
         <h1>Menjalankan Cell</h1>
         <p>Jika ingin menjalankan <strong>Cell</strong>, kita dapat menggunakan <strong>Ctrl+Enter</strong> atau dengan <strong>Shift+Enter</strong></p>
@@ -87,7 +102,7 @@
             <li>command B (below) -> Menambah dibawah</li>
         </ul>
         <p>Tetapi perlu <strong style="color:red">diperhatikan</strong> jika ingin menambahkan <strong>Cell</strong> warna garis <strong>Cell</strong> disebelah kiri harus berwarna <strong style="color:blue">biru</strong> yang menandakan kita masuk dalam <strong>command mode</strong>, selain itu ada juga yang berwarna <strong style="color:green">hijau</strong> yaitu <strong>edit mode</strong></p>
-    
+        <br>
         <!-- Heading ke-4 -->
         <h1>Shortcut</h1>
         <ul>
